@@ -182,7 +182,7 @@ $(document).ready(function () {
         .promise()
         .done(function () {
           i = i + 1;
-          $('p:nth-child(' + i + ')').fadeIn('slow').delay(4500);
+          $('p:nth-child(' + i + ')').fadeIn('slow').delay(5500);
           if (i == 50) {
             $('p:nth-child(49)')
               .fadeOut('slow')
