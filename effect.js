@@ -178,11 +178,11 @@ $(document).ready(function () {
     function msgLoop(i) {
       $('p:nth-child(' + i + ')')
         .fadeOut('slow')
-        .delay(900)
+        .delay(800)
         .promise()
         .done(function () {
           i = i + 1;
-          $('p:nth-child(' + i + ')').fadeIn('slow').delay(6900);
+          $('p:nth-child(' + i + ')').fadeIn('slow').delay(7000);
           if (i == 50) {
             $('p:nth-child(49)')
               .fadeOut('slow')
